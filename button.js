@@ -12,7 +12,7 @@ const cityTemp =document.getElementById('city-temp');
 {
 
 const promise= await fetch (
-    `http://api.weatherapi.com/v1/current.json?key=ccfe8043b25f4d1695d91052252202&q=${cityName}&aqi=yes`);
+    `https://api.weatherapi.com/v1/current.json?key=ccfe8043b25f4d1695d91052252202&q=${cityName}&aqi=yes`);
 
 return await promise.json()
 
